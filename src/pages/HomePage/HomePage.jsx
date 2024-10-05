@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-import './HomePage.css';
+import './Homepage.css';
 import Hero from '../Hero/Hero';
 import Attractions from './Attractions';
 
