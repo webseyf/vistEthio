@@ -1,0 +1,51 @@
+.content-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px; /* Space between hero and content section */
+  padding: 20px;
+}
+
+.attraction {
+  background: rgba(255, 255, 255, 0.9); /* Light background for attraction cards */
+  border-radius: 8px;
+  margin: 10px;
+  padding: 15px;
+  max-width: 300px; /* Max width for attraction cards */
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow for card effect */
+}
+
+.attraction img {
+  width: 100%; /* Responsive image */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.attraction h2 {
+  font-size: 1.5rem; /* Heading size for attractions */
+  margin: 10px 0;
+}
+
+.attraction p {
+  font-size: 1rem; /* Paragraph size for attractions */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .typewriter {
+    font-size: 1.2rem;
+  }
+
+  .learn-more {
+    font-size: 1rem;
+  }
+
+  .content-section {
+    flex-direction: column; /* Stack attractions vertically on small screens */
+    align-items: center;
+  }
+}

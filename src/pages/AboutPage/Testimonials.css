@@ -1,0 +1,47 @@
+/* src/components/AboutPage/Testimonials.css */
+
+.testimonials-section {
+  padding: 20px;
+  background-image: url(./pngtree-website-technology-line-dark-background-image_2344719.jpg);
+  background-size: cover;
+}
+
+.testimonials-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.testimonial-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 15px;
+  width: 300px;
+  transition: transform 0.3s;
+}
+
+.testimonial-card:hover {
+  transform: scale(1.05);
+}
+
+.testimonial-image {
+  border-radius: 40%;
+  width: 170px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.testimonial-comment {
+  font-style: italic; 
+  color: black;
+}
+
+.testimonial-rating {
+  margin-top: 10px;
+}
+
+.star {
+  color: gold;
+}

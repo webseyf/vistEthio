@@ -1,0 +1,21 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.learn-more {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; /* Button color */
+  color: white; /* Button text color */
+  font-size: 1.1rem; /* Button font size */
+  cursor: pointer;
+  margin-top: 20px; /* Spacing above the button */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.learn-more:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
